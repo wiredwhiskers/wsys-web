@@ -1,1 +1,9 @@
-{}
+    .vt323-regular {
+        font-family: "VT323", monospace;
+        font-weight: 400;
+        font-style: normal;
+    }
+    html {
+        font-size: 14x;
+        font-family: "VT323", monospace;
+    }
