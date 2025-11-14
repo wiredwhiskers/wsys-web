@@ -6,4 +6,25 @@
     html {
         font-size: 14x;
         font-family: "VT323", monospace;
+        background-color: #00c1ff;
+    }
+    body{
+        display: block;
+        width: 800px;
+        margin: 0 auto;
+        padding: 0px 20px 20px 20px;
+        border: #00c1b2;
+        background-color: #795179;
+    }
+    nav{
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        width: 750px;
+        & > ul {
+            list-style: none;
+            display: inline-flex;
+            flex-direction: row;
+            gap: 5px;
+        }
     }
