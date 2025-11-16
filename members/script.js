@@ -64,7 +64,6 @@ function showTab(targetButton) {
 tabs.forEach((tab) => {
     tab.addEventListener("click", (e) => {
         showTab(e.target);
-        console.log(e);
     });
     tab.addEventListener("keydown", (e) => {
         if (e.key === "Enter" || e.key === " ") {
