@@ -15,6 +15,8 @@
         padding: 0px 20px 20px 20px;
         border: #00c1b2;
         background-color: #795179;
+        font-size: 14px;
+        font-family: "VT323", monospace;
     }
     nav{
         display: flex;
