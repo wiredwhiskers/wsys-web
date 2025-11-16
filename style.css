@@ -29,3 +29,7 @@
             gap: 5px;
         }
     }
+    iframe{
+        display: flex;
+        max-width: 750px;
+    }
