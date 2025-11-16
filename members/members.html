@@ -11,6 +11,7 @@
     <title>System Members</title>
     <link rel="icon" type="image/x-icon" href="https://site.wsys.pet/images/favicon.ico">
     <link rel="stylesheet" href="https://site.wsys.pet/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/98.css">
   </head>
   <body>
     <nav>
@@ -34,7 +35,26 @@
     </h1>
     <section>
       <h2>WIP</h2>
-      <p>please pardon our dust as we decide how to do this <3</p>
+      <p>please pardon our dust as we decide how to do this</p>
     </section>
+    <div class="gorp">
+      <menu role="tablist">
+        <li role="tab" aria-selected="true" aria-controls="panel-1" id="tab1" tabindex="0">
+          <a href="#" class="tabButton" id="tablink-1">Wired</a>
+        </li>
+        <li role="tab" aria-controls="panel-2" id="tab2" tabindex="1">
+          <a href="#" class="tabButton" id="tablink-2">Cynta</a>
+        </li>
+      </menu>
+      <div class="window" id="tab-panels">
+        <div role="tabpanel" aria-labelledby="tab1" id="panel-1" tabindex="0">
+          <p>fuck it whatever this probably wont work how i want it but maybe it will</p>
+        </div>
+        <div role="tabpanel" aria-labelledby="tab2" id="panel-2" tabindex="2" hidden>
+          <p>wow it worked</p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
