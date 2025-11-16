@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="/style.css">
   </head>
   <body>
-    <nav>
+    <nav id="nav">
       <div>
         <p>Wsys</p>
       </div>
@@ -36,5 +36,16 @@
       <h2>About Me</h2>
       <p>insert about me here</p>
     </section>
+    <script>
+    function iniFrame() {
+        if(window.self !== window.top) {
+          // !== the operator checks if the operands are
+          // have not the same value or not equal type
+          let navTarget = document.getElementById("nav");
+          navTarget.style.display = "none";
+        }
+      }
+      iniFrame();
+    </script>
   </body>
 </html>
