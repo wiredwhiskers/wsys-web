@@ -34,9 +34,14 @@ tabList.addEventListener("keydown", (e) => {
     e.stopPropagation();
     tabs[newIndex].focus();
 });
-function showTab(targetTabButton) {
-    let tabButtonIndex = tabButtons.indexOf(targetTabButton);
-    let targetTab = tabs[tabButtonIndex];
+function showTab(targetButton) {
+    let tabButtonIndex = tabButtons.indexOf(targetButton);
+    let targetTab = 0
+    if(tabButtonIndex === -1){
+        targetTab = targetButton;
+    } else{
+        targetTab = tabs.at(tabButtonIndex);
+    }
     // Unselect other tabs and set this tab as selected
     for (const tab of tabs) {
         if (tab === targetTab) continue;
