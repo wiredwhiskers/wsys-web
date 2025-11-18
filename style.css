@@ -7,12 +7,14 @@
         font-size: 14px;
         font-family: "VT323", monospace;
         background-color: #00c1ff;
+        color: #ffffff;
     }
-    body{
+    body,.ducttape{
         display: block;
         max-width: 800px;
         margin: 0 auto;
         padding: 0px 20px 20px 20px;
+        color: #ffffff;
         border: #00c1b2;
         background-color: #795179;
         font-size: 14px;
